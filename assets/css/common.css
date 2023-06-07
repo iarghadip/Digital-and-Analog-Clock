@@ -1,0 +1,26 @@
+body {
+	height: 100vh;
+	overflow: hidden;
+	background-color: pink;
+	background-image: url('/assets/png/avatar.png');
+	background-size: cover;
+	background-position: 90% 100%;
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+}
+* {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.top-right {
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+.shadow {
+	filter: drop-shadow(0 0 10px 10px rgba(0, 0, 0, 0.75));
+}
