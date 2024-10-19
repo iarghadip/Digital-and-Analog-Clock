@@ -22,7 +22,7 @@ function clock() {
 
   // Calculate the rotations (degrees per second)
   const hRotation = 30 * h + m / 2;
-  const mRotation = 6 * m;
+  const mRotation = 6 * m + s / 10;
   const sRotation = 6 * s;
 
   /******************************************************
